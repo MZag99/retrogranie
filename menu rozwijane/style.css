@@ -1,172 +1,134 @@
-body
-{
-    background-color: #303030;
-    color:#ffffff;
-    font-family: 'Lato', sans-serif;
-    font-size:20px;
-    margin:0 !important;
+body {
+  background-color: #303030;
+  color: #ffffff;
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  margin: 0 !important;
 }
-#wrapper
-{
-    width:100%;
+#wrapper {
+  width: 100%;
 }
-#header
-{
-    width:100%;
-    padding:40px 0;
+#header {
+  width: 100%;
+  padding: 40px 0;
 }
-#logo
-{
-    width:450px;
-    font-size:48px;
-    margin-left:auto;
-    margin-right:auto;
-    padding: 0 10px;
-    
+#logo {
+  width: 450px;
+  font-size: 48px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 10px;
 }
-#pad
-{
-    float:left;
-    margin-top:14px;
-    margin-right:10px;
-    width:85px;
-    height:36px;
+#pad {
+  float: left;
+  margin-top: 14px;
+  margin-right: 10px;
+  width: 85px;
+  height: 36px;
 }
-.accent
-{
-    color:#df364b;
+.accent {
+  color: #df364b;
 }
-#nav
-{
-    width:100%;
-    padding:10px 0;
-    background-color:#df364b;
-    text-align:center;
-    border-top: 2px solid #751b1b;
-    border-bottom: 2px solid #751b1b;
-
-    
+#nav {
+  width: 100%;
+  padding: 10px 0;
+  background-color: #df364b;
+  text-align: center;
+  border-top: 2px solid #751b1b;
+  border-bottom: 2px solid #751b1b;
 }
-#content
-{
-    width:70%;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 10px;
-    
+#content {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
 }
-#socials
-{
-    width:100%;
-    text-align:center;
-    background-color:#292929;
+#socials {
+  width: 100%;
+  text-align: center;
+  background-color: #292929;
 }
-#socialdivs
-{
-    width:75%;
-    margin-left: auto;
-    margin-right: auto;
+#socialdivs {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
 }
-#fb
-{
-width:25%;
-height:155px;
-float:left;
+#fb {
+  width: 25%;
+  height: 155px;
+  float: left;
 }
-#fb:hover
-{
-    background-color:#4668b3;
+#fb:hover {
+  background-color: #4668b3;
 }
-#yt
-{
-width:25%;
-height:155px;
-float:left;
+#yt {
+  width: 25%;
+  height: 155px;
+  float: left;
 }
-#yt:hover
-{
-    background-color:#c4302b;
+#yt:hover {
+  background-color: #c4302b;
 }
-#tw
-{
-width:25%;
-height:155px;
-float:left;
+#tw {
+  width: 25%;
+  height: 155px;
+  float: left;
 }
-#tw:hover
-{
-    background-color:#00acee;
+#tw:hover {
+  background-color: #00acee;
 }
-#gplus
-{
-width:25%;
-height:155px;
-float:left;
+#gplus {
+  width: 25%;
+  height: 155px;
+  float: left;
 }
-#gplus:hover
-{
-    background-color:#db4a39;
+#gplus:hover {
+  background-color: #db4a39;
 }
-#footer
-{
-    text-align: center;
-    background-color:#222222;
-    font-size:18px;
-    padding:20px;
-
+#footer {
+  text-align: center;
+  background-color: #222222;
+  font-size: 18px;
+  padding: 20px;
 }
-.sticky
-{
-    width:100%;
-    position:fixed;
-    left:0;
-    top:0;
-    z-index:100;
+.sticky {
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 100;
 }
-ol
-{
-    padding:0; 
-    margin:0;
-    list-style-type: none;
-    font-size:18px;
-    height:35px;
-    line-height:200%;
-    display:inline-block;
-    
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  font-size: 18px;
+  height: 35px;
+  line-height: 200%;
+  display: inline-block;
 }
-ol a
-{
-    color:#ffffff;
-    text-decoration: none;
-    display:block;
-    font-weight: bold;
- 
+ul a {
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+  font-weight: bold;
 }
-ol > li
-{
-    float:left;
-    width:150px;
-    height:40px;
-    border-right: 1px dashed #751b1b;
-    
+ul > li {
+  float: left;
+  width: 150px;
+  height: 40px;
+  border-right: 1px dashed #751b1b;
 }
-ol > li:first-child
-{
-    float:left;
-    width:150px;
-    height:40px;
-    border-left: 1px dashed #751b1b;
-    
+ul > li:first-child {
+  float: left;
+  width: 150px;
+  height: 40px;
+  border-left: 1px dashed #751b1b;
 }
-ol > li:hover
-{
-    background-color: #cf6969;
-    
-    
+ul > li:hover {
+  background-color: #cf6969;
 }
-ol > li >a:hover
-{
-    background-color: #cf6969;
-    color:#751b1b;
-    
+ul > li > a:hover {
+  background-color: #cf6969;
+  color: #751b1b;
 }
